@@ -1,6 +1,6 @@
 # Stock-Sentiment-Analysis
-Run Visualize.py
-  -- sub: choose subreddit (default:'Wallstreetbets')
-  -- date: how far back to scrape(default:30d)
-  -- stock: stock symbol ( default : 'amzn')
-  -- limit: limit post to scrape( default : 100)
+Run Visualize.py /n
+  -- sub: choose subreddit (default:'Wallstreetbets') /n
+  -- date: how far back to scrape(default:30d) /n
+  -- stock: stock symbol ( default : 'amzn') /n
+  -- limit: limit post to scrape( default : 100) /n
