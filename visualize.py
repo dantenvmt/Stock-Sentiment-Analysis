@@ -20,7 +20,7 @@ def main():
     args = parser.parse_args()
 
     results = scrape_for('{}'.format(args.stock.lower()), args.limit, args.date, args.sub)
-    results.to_csv('../test/{0}_{1}_sentiment.csv'.format(args.stock, args.sub))
+    results.to_csv('{0}_{1}_sentiment.csv'.format(args.stock, args.sub))
     plot_scores(results, '{} Sentiment and Stock Price'.format(args.stock), args.stock)
 
 if __name__ == '__main__':
